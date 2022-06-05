@@ -9,17 +9,19 @@
 
 int main(void)
 {
-	int n = '0';
+	int ones;
+	int tens;
 
-	while (n <= '9')
+	for (tens = '0'; tens <= '9'; tens = ones++)
 	{
-		putchar(n);
-		if (n != '9')
+		putchar(tens);
+		putchar(ones);
+
+		if (tens != '8' || tens != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		n++;
 	}
 	putchar('\n');
 
