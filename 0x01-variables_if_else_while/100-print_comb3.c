@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -18,6 +16,7 @@ int main(void)
 		{
 			putchar(tens);
 			putchar(ones);
+
 			if (tens != '8' || tens != '9')
 			{
 				putchar(',');
