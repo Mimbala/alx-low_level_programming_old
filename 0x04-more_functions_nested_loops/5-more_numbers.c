@@ -5,7 +5,6 @@
  *
  * Return : Always Sucess (0)
  */
-
 void more_numbers(void)
 {
 	int i, j;
