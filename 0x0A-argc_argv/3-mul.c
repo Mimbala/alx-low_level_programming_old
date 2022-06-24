@@ -1,4 +1,6 @@
-#include "main.h" "stdlib.h" "stdio.h"
+#include "main.h"
+#include "stdlib.h"
+#include "stdio.h"
 
 /**
  * main - prints the multiplication of two integers
