@@ -15,10 +15,10 @@ unsigned int binary_to_uint(const char *b)
 	if (b == NULL)
 		return (sum);
 
-	/* findind the lenght of the string */
+	/* finding the length of the string */
 	while (b[len] != '\0')
 		len++;
-	len = len -1;
+	len -= 1;
 
 	/* iterate string and if '1' then multiply by power of 2
 	 * get power of 2 via binary (e.g. 1<<2 = 100 in binary = 4)
